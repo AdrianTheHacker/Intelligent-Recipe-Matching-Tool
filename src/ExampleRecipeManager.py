@@ -44,10 +44,6 @@ class RecipeManager:
     recipeWords = self.__getWordsList(recipesList)
     correctlySpelledUserInputtedRecipeNameMatrix = self.__getCorrectSpellingOfPhrase(userInputtedRecipeName, recipeWords)
 
-    # print(recipeWords)
-    # print(self.__getVectorizedPhrase(" ".join(recipeWords), recipeWords))
-    # print(self.__getVectorizedPhrase("spicy korean fried chicken", recipeWords))
-
     # 2. Use Cosine Similarity to find most similar words combination.
     # Use bag of words method
 
@@ -64,10 +60,13 @@ class RecipeManager:
         userInputtedNameVectorLength = self.__getVectorLength(userInputtedNameVector)
 
         dotProduct = self.__getVectorDotProduct(recipeVector, userInputtedNameVector)
+
+        if(userInputtedNameVectorLength * recipeVectorLength == 0): return "None"
         cosineSimilarity: float = dotProduct / (userInputtedNameVectorLength * recipeVectorLength)
 
         if abs(1 - cosineSimilarity) > bestMatchCosineSimilarity: continue
         if abs(1 - cosineSimilarity) == bestMatchCosineSimilarity:
+          if bestMatch.split(", ").count(recipe) == 1: continue
           bestMatch += ", " + recipe
           bestMatchCosineSimilarity = abs(1 - cosineSimilarity)
           continue

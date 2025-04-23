@@ -1,4 +1,6 @@
 # Recipe Fuzzy Search Example
+Author - Adrian Tarantino ([@AdrianTheHacker](https://github.com/AdrianTheHacker))
+
 Here is where you can find all code relating to the real world problem in [What is Fuzzy Search and How We Use It - AdrianTheHacker](https://www.youtube.com/@AdrianTheHacker). I encourage you to watch that video before attempting this problem.
 
 If you have any testcases you'd like to contribute, or any corrections, feel free to create a pull request or leave a comment on [the video](https://www.youtube.com/@AdrianTheHacker)!
