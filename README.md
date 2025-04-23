@@ -1,9 +1,9 @@
 # Recipe Fuzzy Search Example
 Author - Adrian Tarantino ([@AdrianTheHacker](https://github.com/AdrianTheHacker))
 
-Here is where you can find all code relating to the real world problem in [What is Fuzzy Search and How We Use It - AdrianTheHacker](https://www.youtube.com/@AdrianTheHacker). I encourage you to watch that video before attempting this problem.
+Here is where you can find all code relating to the real world problem in [How do Phones Understand Your Typos? | Overview of Fuzzy Search Algorithms & Implementation - AdrianTheHacker]([https://www.youtube.com/@AdrianTheHacker](https://youtu.be/g49cB290HRQ?si=KtgVmSQ9Wsv3iiEs)). I encourage you to watch that video before attempting this problem.
 
-If you have any testcases you'd like to contribute, or any corrections, feel free to create a pull request or leave a comment on [the video](https://www.youtube.com/@AdrianTheHacker)!
+If you have any testcases you'd like to contribute, or any corrections, feel free to create a pull request or leave a comment on [the video](https://youtu.be/g49cB290HRQ?si=KtgVmSQ9Wsv3iiEs)!
 
 ### The Problem
 Let’s just say a recipe app contains a search bar where users can type in the name of their favourite recipe, and the app will return the instructions for that recipe. 
