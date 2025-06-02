@@ -1,4 +1,4 @@
-# Recipe Fuzzy Search Example
+# Intelligent Recipe Matching Tool
 Author - Adrian Tarantino ([@AdrianTheHacker](https://github.com/AdrianTheHacker))
 
 Here is where you can find all code relating to the real world problem in [How do Phones Understand Your Typos? | Overview of Fuzzy Search Algorithms & Implementation - AdrianTheHacker]([https://www.youtube.com/@AdrianTheHacker](https://youtu.be/g49cB290HRQ?si=KtgVmSQ9Wsv3iiEs)). I encourage you to watch that video before attempting this problem.
